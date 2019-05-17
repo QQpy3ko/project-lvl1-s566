@@ -1,13 +1,11 @@
-import sys 
-sys.path.append('..') # to be able import from parent
-
-from cli import run
+from brain_games import cli
 
 
 def main():
     print("Welcome to the Brain Games!")
 
-    run()
+    cli.run()
+
 
 if __name__ == '__main__':
-	main()
+    main()

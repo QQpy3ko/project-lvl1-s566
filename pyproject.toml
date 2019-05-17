@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "QQpy3ko_brain_games"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["Your Name <you@example.com>"]
 packages = [
@@ -13,6 +13,7 @@ python = "^3.6"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
+flake8 = "^3.7"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
