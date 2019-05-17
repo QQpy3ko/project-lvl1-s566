@@ -18,4 +18,4 @@ brain-games
 
 
 
-https://travis-ci.org/QQpy3ko/project-lvl1-s566.svg?branch=master
+[![Build Status](https://travis-ci.org/QQpy3ko/project-lvl1-s566.svg?branch=master)](https://travis-ci.org/QQpy3ko/project-lvl1-s566)
