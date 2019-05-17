@@ -1,3 +1,5 @@
 language: python
-install: python -m pip install flake8
+install: 
+  - python -m pip install flake8
+  - curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 script: make lint

@@ -1,5 +1,13 @@
 # project "Brain Games"
 
+<a href="https://codeclimate.com/github/QQpy3ko/project-lvl1-s566/maintainability"><img src="https://api.codeclimate.com/v1/badges/0af9b95d6f7a8eeb0579/maintainability" /></a>
+
+<a href="https://codeclimate.com/github/QQpy3ko/project-lvl1-s566/test_coverage"><img src="https://api.codeclimate.com/v1/badges/0af9b95d6f7a8eeb0579/test_coverage" /></a>
+
+
+
+[![Build Status](https://travis-ci.org/QQpy3ko/project-lvl1-s566.svg?branch=master)](https://travis-ci.org/QQpy3ko/project-lvl1-s566)
+
 
 # To install the package (for current user) from TestPyPi in shell:
 
@@ -12,10 +20,3 @@ brain-games
 
 
 
-<a href="https://codeclimate.com/github/QQpy3ko/project-lvl1-s566/maintainability"><img src="https://api.codeclimate.com/v1/badges/0af9b95d6f7a8eeb0579/maintainability" /></a>
-
-<a href="https://codeclimate.com/github/QQpy3ko/project-lvl1-s566/test_coverage"><img src="https://api.codeclimate.com/v1/badges/0af9b95d6f7a8eeb0579/test_coverage" /></a>
-
-
-
-[![Build Status](https://travis-ci.org/QQpy3ko/project-lvl1-s566.svg?branch=master)](https://travis-ci.org/QQpy3ko/project-lvl1-s566)
