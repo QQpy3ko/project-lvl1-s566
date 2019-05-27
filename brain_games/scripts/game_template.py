@@ -28,7 +28,7 @@ def run_game(x):
             right_ans_counter += 1
         else:
             break
-    
+
     if right_ans_counter == 3:
         print(f"Congratulations, {cli.inputed_name[0]}!")
     else:

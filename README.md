@@ -10,7 +10,6 @@
 # Watch video-guides to know how:
 
 To install the package (for current user) from TestPyPi and to run the programme in shell:
-- brain-even (mark is a given number even):
-<a href="http://showterm.io/592b15e76d0888c992410">
-- brain-calc (calculate a given expression):
-<a href="http://showterm.io/2e8aff77a5170d201d05e">
+<a href="http://showterm.io/0a7707e184145a4250a37">- brain-even (mark is a given number even)</a>
+<a href="http://showterm.io/f421e0bd5213594feba76">- brain-calc (calculate a given expression):</a>
+<a href="http://showterm.io/5124998740fb1fca14d95">- brain-gcd (find the greatest common divisor of given numbers):</a>
