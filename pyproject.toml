@@ -1,11 +1,15 @@
 [tool.poetry]
 name = "QQpy3ko_brain_games"
-version = "0.5.2"
+version = "0.6.2"
 description = ""
-authors = ["Your Name <you@example.com>"]
+classifiers = [
+    "Topic :: Games/Entertainment :: Board Games"
+]
+authors = "Aleksandr Vinogradov"
 packages = [
     { include = "brain_games" },
-  ]
+]
+repository = "https://github.com/QQpy3ko/project-lvl1-s566"
 
 
 [tool.poetry.dependencies]
@@ -21,6 +25,7 @@ brain-even = "brain_games.scripts.games.brain_even:main"
 brain-calc = "brain_games.scripts.games.brain_calc:main"
 brain-gcd = "brain_games.scripts.games.brain_gcd:main"
 brain-progression = "brain_games.scripts.games.brain_progression:main"
+brain-prime = "brain_games.scripts.games.brain_prime:main"
 
 [[tool.poetry.source]]
 name = "TestPyPi"

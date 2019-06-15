@@ -10,7 +10,7 @@ def main():
     game_template.ask_name()
 
     def set_question_and_answer(question, correct_answer):
-        first_elem, hidden_elem = (random.randint(0, 9) for i in range(0,2))
+        first_elem, hidden_elem = (random.randint(0, 9) for i in range(0, 2))
         step = random.randint(1, 10)
         true_list = [first_elem]
         for i in range(0, 9):

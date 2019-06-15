@@ -10,7 +10,9 @@
 # Watch video-guides to know how:
 
 To install the package (for current user) from TestPyPi and to run the programme in shell:
-<a href="http://showterm.io/0a7707e184145a4250a37">- brain-even (mark is a given number even)</a>
-<a href="http://showterm.io/f421e0bd5213594feba76">- brain-calc (calculate a given expression):</a>
-<a href="http://showterm.io/5124998740fb1fca14d95">- brain-gcd (find the greatest common divisor of given numbers):</a>
-<a href="http://showterm.io/7914814fc46d46778f565">- brain-progression (What number is missing in the progression?):</a>
+<a href="http://showterm.io/0a7707e184145a4250a37">- brain-even (mark is a given number even)</a><p>
+<a href="http://showterm.io/f421e0bd5213594feba76">- brain-calc (calculate a given expression)</a><br>
+<a href="http://showterm.io/5124998740fb1fca14d95">- brain-gcd (find the greatest common divisor of given numbers)</a><br>
+<a href="http://showterm.io/7914814fc46d46778f565">- brain-progression (find the missing number in the progression)</a><br>
+<a href="http://showterm.io/e8437118e1481d81c94a4">- brain-progression (mark is a given number even)</a>
+
