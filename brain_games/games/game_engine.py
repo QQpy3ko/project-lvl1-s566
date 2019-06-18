@@ -1,4 +1,4 @@
- #!/usr/bin/env python3
+#!/usr/bin/env python3
 
 import prompt
 from brain_games.scripts import cli
@@ -34,9 +34,8 @@ def run_game(descr, question_and_answer):
             right_ans_counter += 1
         else:
             print(f"'{inputed_answer}' is wrong answer ;(. Correct answer was "
-f"'{correct_answer}'.\nLet's try again, {gamer_name}!")
+                  f"'{correct_answer}'.\nLet's try again, {gamer_name}!")
             break
-  
+
     else:
         print(f"Congratulations, {gamer_name}!")
-        

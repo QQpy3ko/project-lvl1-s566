@@ -1,4 +1,4 @@
- #!/usr/bin/env python3
+#!/usr/bin/env python3
 
 import operator
 import random
@@ -21,7 +21,7 @@ def main():
 
         question = f"{str(a)} {random_operator_key} {str(b)}"
         correct_answer = str(OPERATORS[random_operator_key](a, b))
-        
+
         return question, correct_answer
 
     game_engine.run_game(descr, set_question_and_answer)

@@ -1,4 +1,4 @@
- #!/usr/bin/env python3
+#!/usr/bin/env python3
 
 from brain_games.scripts import cli
 from brain_games.games import game_engine
