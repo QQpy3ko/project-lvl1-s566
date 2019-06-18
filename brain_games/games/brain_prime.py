@@ -1,21 +1,21 @@
+ #!/usr/bin/env python3
+
 import random
-from brain_games.scripts import game_template
+import math
+from brain_games.games import game_engine
 
 
 def main():
-    game_template.greeting()
 
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+    descr = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
-    game_template.ask_name()
-
-    def set_question_and_answer(question, correct_answer):
+    def set_question_and_answer():
         x = random.randint(1, 100)
         if x == 1:
             correct_answer = 'no'
         else:
-            for i in range(2, x):
-                if x % i == 0:
+            for i in range(2, int(math.sqrt(x))+1):
+                if not x % i:
                     correct_answer = 'no'
                     break
             else:
@@ -23,7 +23,7 @@ def main():
         question = str(x)
         return question, correct_answer
 
-    game_template.run_game(set_question_and_answer)
+    game_engine.run_game(descr, set_question_and_answer)
 
 
 if __name__ == '__main__':
