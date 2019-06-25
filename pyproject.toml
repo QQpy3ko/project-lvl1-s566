@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "QQpy3ko_brain_games"
-version = "0.6.5"
+version = "0.6.6"
 description = ""
 classifiers = [
     "Topic :: Games/Entertainment :: Board Games"

@@ -9,6 +9,7 @@ OPERATORS = {
 
 DESCRIPTION = "What is the result of the expression?"
 
+
 def set_question_and_answer():
     a = random.randint(1, 20)
     b = random.randint(1, 20)

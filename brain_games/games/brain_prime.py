@@ -4,9 +4,9 @@ import math
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def set_question_and_answer():
     x = random.randint(1, 100)
-    print('fuck')
     if x == 1 or not x % 2:
         correct_answer = 'no'
     else:
