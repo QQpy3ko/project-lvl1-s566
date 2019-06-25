@@ -1,31 +1,20 @@
-#!/usr/bin/env python3
-
 import random
-from brain_games.games import game_engine
+
+DESCRIPTION = "Find the greatest common divisor of given numbers."
 
 
-def main():
+def set_question_and_answer():
+    a = random.randint(1, 100)
+    b = random.randint(1, 100)
 
-    descr = "Find the greatest common divisor of given numbers."
+    question = f"{str(a)} {str(b)}"
 
-    def set_question_and_answer():
-        a = random.randint(1, 100)
-        b = random.randint(1, 100)
+    while a and b:
+        if a > b:
+            a = a % b
+        else:
+            b = b % a
 
-        question = f"{str(a)} {str(b)}"
+    correct_answer = str(a + b)
 
-        while a and b:
-            if a > b:
-                a = a % b
-            else:
-                b = b % a
-
-        correct_answer = str(a + b)
-
-        return question, correct_answer
-
-    game_engine.run_game(descr, set_question_and_answer)
-
-
-if __name__ == '__main__':
-    main()
+    return question, correct_answer

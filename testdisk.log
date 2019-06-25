@@ -1,0 +1,99 @@
+
+
+Tue Jun 25 15:53:16 2019
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.15.0-43-generic (#46~16.04.1-Ubuntu SMP Fri Dec 7 13:31:08 UTC 2018) x86_64
+Compiler: GCC 5.3
+ext2fs lib: 1.42.13, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+/dev/sda: LBA, HPA, LBA48 support
+/dev/sda: size       234441648 sectors
+/dev/sda: user_max   234441648 sectors
+/dev/sda: native_max 234441648 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 120 GB / 111 GiB - CHS 14593 255 63, sector size=512 - TS120GMTS420S, S/N:EA171252E45423270109, FW:Q1121A0
+Disk /dev/mmcblk1 - 31 GB / 29 GiB - CHS 954240 4 16, sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/mmcblk1 - 31 GB / 29 GiB
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=61071359 (expected 61071359)
+hdr_lba_start=34
+hdr_lba_end=61071326
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+check_part_gpt failed for partition
+ 1 P MS Reserved                 2048      34815      32768 [Microsoft reserved partition]
+ 1 P MS Reserved                 2048      34815      32768 [Microsoft reserved partition]
+ 2 P MS Data                    34816   61069311   61034496 [Basic data partition]
+     NTFS, blocksize=4096, 31 GB / 29 GiB
+ntfs_device_testdisk_io_ioctl() unimplemented
+
+
+dir_partition inode=5
+ 2 P MS Data                    34816   61069311   61034496 [Basic data partition]
+     NTFS, blocksize=4096, 31 GB / 29 GiB
+Directory /
+       5 dr-xr-xr-x     0      0         0 24-Jun-2019 08:31 .
+       5 dr-xr-xr-x     0      0         0 24-Jun-2019 08:31 ..
+   30079 dr-xr-xr-x     0      0         0  3-Dec-2018 09:14 $RECYCLE.BIN
+   35560 dr-xr-xr-x     0      0         0  3-Dec-2018 13:45 GAMES
+   30449 dr-xr-xr-x     0      0         0  3-Dec-2018 09:18 Intel
+      89 dr-xr-xr-x     0      0         0  9-Jan-2019 13:36 Program Files
+     169 dr-xr-xr-x     0      0         0 11-Jun-2019 13:28 Program Files (x86)
+     215 dr-xr-xr-x     0      0         0  1-Apr-2019 06:39 ProgramData
+      82 dr-xr-xr-x     0      0         0  3-Dec-2018 09:13 Recovery
+   32000 dr-xr-xr-x     0      0         0 11-Jun-2019 13:28 SOFT
+   32427 dr-xr-xr-x     0      0         0  5-Mar-2019 08:23 SOFTWinRAR
+   29017 dr-xr-xr-x     0      0         0  3-Dec-2018 09:51 System Volume Information
+     305 dr-xr-xr-x     0      0         0  3-Dec-2018 09:13 Users
+     359 dr-xr-xr-x     0      0         0 31-Dec-2018 14:26 Windows
+   32427 -r--r--r--     0      0         0  5-Mar-2019 08:23 SOFTWinRAR:Win32App_1
+   36680 -r--r--r--     0      0 1048576000 25-Jun-2019 10:09 pagefile.sys
+   33308 -r--r--r--     0      0  16777216 25-Jun-2019 10:09 swapfile.sys
+Partition table type (auto): EFI GPT
+Disk /dev/sda - 120 GB / 111 GiB - TS120GMTS420S
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=234441647 (expected 234441647)
+hdr_lba_start=34
+hdr_lba_end=234441614
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P Unknown                     2048     923647     921600 [Basic data partition]
+ 2 P EFI System                923648    1128447     204800 [EFI system partition]
+ 3 P Linux Swap               1128448    6987775    5859328
+ 4 P Unknown                  6987776   60612607   53624832
+ 5 P MS Data                 60612608  234438655  173826048 [Basic data partition]
+     NTFS, blocksize=4096, 88 GB / 82 GiB
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=234441647 (expected 234441647)
+hdr_lba_start=34
+hdr_lba_end=234441614
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P Unknown                     2048     923647     921600 [Basic data partition]
+ 2 P EFI System                923648    1128447     204800 [EFI system partition]
+ 3 P Linux Swap               1128448    6987775    5859328
+ 4 P Unknown                  6987776   60612607   53624832
+ 5 P MS Data                 60612608  234438655  173826048 [Basic data partition]
+     NTFS, blocksize=4096, 88 GB / 82 GiB
+
+TestDisk exited normally.
