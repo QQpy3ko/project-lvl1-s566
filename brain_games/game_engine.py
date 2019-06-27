@@ -1,26 +1,22 @@
 import prompt
-from brain_games.scripts import cli
+from brain_games import cli
 
 
-def greeting():
+def greet():
     print("Welcome to the Brain Games!")
-
-
-def ask_name():
-    return cli.run()
 
 
 def run_game(game):
 
-    greeting()
+    greet()
 
     print(game.DESCRIPTION)
 
-    gamer_name = ask_name()
+    gamer_name = cli.ask_name()
 
-    for right_ans_counter in range(0, 3):
+    for _ in range(0, 3):
 
-        question, correct_answer = game.set_question_and_answer()
+        question, correct_answer = game.get_question_and_answer()
         print('Question: ' + question)
         inputed_answer = prompt.string('Your answer: ')
         if inputed_answer == correct_answer:
