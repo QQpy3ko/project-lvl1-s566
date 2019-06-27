@@ -18,8 +18,8 @@ def get_question_and_answer():
 
     question = f"{a} {b}"
 
-    find_gcd(a, b)
+    first_gcd_item, second_gcd_item = find_gcd(a, b)
 
-    correct_answer = str(a + b)
+    correct_answer = str(first_gcd_item + second_gcd_item)
 
     return question, correct_answer
