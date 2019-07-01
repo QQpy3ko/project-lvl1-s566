@@ -9,7 +9,8 @@ def find_gcd(x, y):
             x = x % y
         else:
             y = y % x
-    return x, y
+    gcd = str(x + y)
+    return gcd
 
 
 def get_question_and_answer():
@@ -18,8 +19,6 @@ def get_question_and_answer():
 
     question = f"{a} {b}"
 
-    first_gcd_item, second_gcd_item = find_gcd(a, b)
-
-    correct_answer = str(first_gcd_item + second_gcd_item)
+    correct_answer = str(find_gcd(a, b))
 
     return question, correct_answer

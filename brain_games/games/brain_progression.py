@@ -7,12 +7,12 @@ def get_question_and_answer():
     first_elem = random.randint(0, 10)
     hidden_elem = random.randint(0, 10)
     step = random.randint(1, 10)
-    crypted_list = [str(first_elem)]
+    crypted_list = []
     for i in range(0, 10):
         if i == hidden_elem:
             crypted_list.append('..')
         elif i == 0:
-            crypted_list[0] = str(first_elem)
+            crypted_list.append(str(first_elem))
         else:
             crypted_list.append(str(first_elem + i * step))
 
